@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill-Swap Project Plan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <img src="logo.png" alt="Barter Brains Logo" class="main-logo">
+        </div>
+    <main class="container">
+        <section class="card">
+            <h1>Project Vision</h1>
+            <p>It's a platform where people can learn new skills from each other without breaking the money. The vision of BarterBrains is to revolutionize the global educational landscape by creating a decentralized, community-driven ecosystem where <b>"Knowledge is the only Currency."</b> In an era dominated by high-cost certifications and expensive online subscriptions, our platform aims to dismantle financial barriers that prevent passionate learners from acquiring new skills. We envision a world where every individual is recognized as both a teacher and a student, fostering a culture of mutual growth and intellectual exchange.<br><br>Our primary goal is to leverage modern web technologies to build a high-performance matching engine that connects people based on complementary needs. By reintroducing the ancient <b>"Barter System"</b> into a digital context, we aim to provide a sustainable alternative to traditional paid education. We see BarterBrains growing into a global repository of diverse talents—ranging from high-end technical stacks like Full Stack Development and AI to creative arts and life skills—where trust, community ratings, and collaborative learning form the backbone of the user experience. Ultimately, the project strives to prove that a wealth of knowledge can be built not with money, but through the shared human desire to learn and grow together.</p>
+        </section>
+
+        <section class="card">
+            <h1>How will it work? (Logic & Workflow)</h1>
+            <div class="steps">
+                <div class="step">
+                    <h3>1. Create a Profile</h3>
+                    <p>Create your Profile and give information about your skills and what you want to learn.</p>
+                </div>
+                <div class="step">
+                    <h3>2.Find a Match</h3>
+                    <p>Our smart algorithm cross-refrences your 'Skills Offered' with other users' 'Skills Wanted' to find your perfect learning partner.</p>
+                </div>
+                <div class="step">
+                    <h3>3.Start Learning</h3>
+                    <p>It creates a bridge between mentors and learners. And help each other through chats or sharing photos and videos.</p>
+                </div>
+            </div>
+        </section>
+            <section class="card">
+                <h2 class="section-title">Core Project Features</h2>
+                <div class="features-grid">   
+                    <div class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3>Smart Skill-Matching</h3>
+                        <p>Our intelligent system automatically connects users whose "skills offered" match your "skills wanted."</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💎</div>
+                        <h3>Zero-Cost Learning</h3>
+                        <p>A pure barter-based platform where knowledge is the currency. No money, just pure skill exchange.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Trust & Rating System</h3>
+                        <p>Peer-reviewed profiles and star ratings ensure a safe and high-quality learning environment for everyone.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💬</div>
+                        <h3>Direct Interaction</h3>
+                        <p>Integrated communication tools to help mentors and students coordinate their sessions easily.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌐</div>
+                        <h3>Multi-Category Access</h3>
+                        <p>From Coding and AI to Music, Cooking, and Fitness—explore a vast library of diverse skills.</p>
+                    </div>
+                </div>
+        </section>
+        <section class="card">
+            <h2>Explore our Skills</h2>
+            <button id="showSkillsBtn" onclick="toggleSkills()">View list of skills</button>   
+            <div id="skillsContainer" class="skills-flex container">
+                <div class="skill-card">
+                    <img src="fullstack.png" alt="Full Stack">
+                    <h3>Full Stack</h3>
+                    <p>Master both Front-end abd Back-end Web Technologies.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="Art&craft.png" alt="Art">
+                    <h3>Art & Craft</h3>
+                    <p>Learn creative DIYs, painting and hand-made crafts.</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046747.png" alt="Cooking">
+                    <h3>Culinary Arts</h3>
+                    <p>Cook delicious world cuisines without any professional fee.</p>
+                </div>
+                <div class="skill-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java">
+                        <h3>Java Programming</h3>
+                        <p>Master the basics of backend coding.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1260/1260667.png" alt="Guitar">
+                        <h3>Guitar Lessons</h3>
+                        <p>Learn chords and rhythm from experts.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="yoga.png"  alt="Yoga">
+                        <h3>Yoga & Fitness</h3>
+                        <p>Stay healthy with daily yoga sessions.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3067/3067332.png" alt="Character Modelling">
+                        <h3>Character Modelling</h3>
+                        <p>Create stunning 3D characters for games and animations.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="GraphicDesigning.png" alt="Graphic Designing">
+                        <h3>Graphic Designing</h3>
+                        <p>Learn UI/UX Designing, logo making, and digital illustrations.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="Digitalmarketing.png" alt="Marketing">
+                        <h3>Digital Marketing</h3>
+                        <p>Grow brands using SEO and Social Media strategies.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="Photograpghy.png " alt="Photography">
+                        <h3>Photography & Editing</h3>
+                        <p>Capture moments and master professional video editing.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3898/3898082.png" alt="Language">
+                        <h3>Language Exchange</h3>
+                        <p>Learn new languages like French or Spanish etc. by chatting.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="financeliteracy - Copy.png" alt="Finance">
+                        <h3>Financial Literacy</h3>
+                        <p>Understand investment basics and money management.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="publicSpeaking.png" alt="Public Speaking">
+                        <h3>Public Speaking</h3>
+                        <p>Boost your confidence and master the art of communication.</p>
+                    </div>
+                </div>
+        </section>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <p>&copy; 2026 Barter-Brains | Created by Gulshan Shrivastava, Jyoti Bora, Mainka Pal, Manish Sharma as College Project.</p>
+    </footer>
+</body>
+</html>
