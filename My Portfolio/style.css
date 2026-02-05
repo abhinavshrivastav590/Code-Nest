@@ -1,0 +1,122 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #A0E7E5);
+      color: #333;
+    }
+
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 25px 20px;
+      text-align: center;
+      border-bottom: 4px solid #4facfe;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      margin-top: 12px;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4facfe;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .hero img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #4facfe;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .hero h2 {
+      margin-top: 20px;
+      font-size: 2rem;
+      color: darkblue;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-top: 8px;
+      color:#333;
+    }
+
+    /* ABOUT SECTION */
+    .about-box {
+      background: #ffffffbb;
+      padding: 25px;
+      border-left: 6px solid #4facfe;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    /* PROJECTS SECTION */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px black;
+      transition: 0.3s;
+      border-top: 4px solid #4facfe;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #1a1a1a;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 18px;
+      margin-top: 40px;
+      border-top: 4px solid #4facfe;
+    }
